@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Regular";
+    src: url(../fonts/Noto-Sans-Regular.zip);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Light";
+    src: url(../fonts/Noto-Sans-Light.zip);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Medium";
+    src: url(../fonts/FontsFree-Net-NotoSans-Medium.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "SemiBold";
+    src: url(../fonts/Noto-Sans-SemiBold.zip);
+    font-weight: normal;
+}

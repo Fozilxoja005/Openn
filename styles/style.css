@@ -1,0 +1,485 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #313131 !important;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: #fff;
+  gap: 15px;
+}
+
+.link {
+  color: #fff;
+  font-family: "Regular", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+
+}
+
+
+.navbar__2 {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.dropdown-item {
+  color: #fff;
+  background: #000;
+}
+
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  justify-content: center !important;
+}
+
+.form-control {
+  display: flex !important;
+  width: 500px !important;
+  line-height: -30;
+}
+
+
+
+.nav-link {
+  text-align: center;
+  color: #fff !important;
+  height: 35px;
+  /* height: 30px; */
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  top: 50px;
+
+}
+
+.carousel__text {
+  color: #fff;
+  align-items: center;
+  font-size: 48px;
+  text-align: center;
+  line-height: 70px;
+  bottom: 120px;
+
+
+}
+
+.carousel__title {
+  font-size: 24px;
+  color: #fff;
+}
+
+.carousel__button {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  Width: 190px;
+  height: 42px !important;
+  left: 1195px;
+  top: 240px;
+  color: #fff !important;
+  background: #313131;
+  margin-top: 120px;
+
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.carousel-inner {
+  margin-bottom: 50px;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  /* background: white; */
+  background: url(../images/Rectangle\ 6.png);
+  width: 500px;
+  height: 750px;
+}
+
+.col-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.drink {
+  position: relative;
+;
+}
+.d-flex{
+  top: 2  5px;
+    gap: 25px
+}
+
+.drink__img {
+  background: #fff;
+}
+
+.drink__title{
+  position: absolute;
+  color: #000;
+  font-weight: 500;
+  font-size: 32px;
+  margin-top: -75px;
+  margin-left: 13px;
+}
+.drink__titlee{
+  position: absolute;
+  color: #000n
+  font-weight: 500;
+  font-size: 21px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.drink__texttt{
+  background: #313131;
+  /* width: 150px; */
+  color:white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 50%;
+  margin-bottom: -20px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 160px;
+}
+
+.drink__text {
+  position: absolute;
+  margin-top: -40px;
+  color: #000;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.drink___text{
+  position: absolute;
+  margin-top: 40px;
+  color: #000;
+  font-size: 20px;
+  margin-left: 16px;
+}
+
+.drink__textt {
+  background: #313131;
+  /* width: 150px; */
+  color:white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 50%;
+  margin-bottom: -20px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* .soat {
+  background: #fff;
+
+} */
+
+
+
+
+
+.zaryadnik {
+  gap: 30px;
+  display: flex;
+
+}
+
+.button__soat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  Width: 190px;
+  height: 25px;
+  color: #fff;
+  background: #313131;
+  margin-top: 42px;
+}
+
+.powerbeg {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.proweb {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.iphone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.iphone:hover {
+  border: 2px solid white;
+}
+
+.iphone__icon {
+  opacity: 0;
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  left: 87.25%;
+  right: 6.25%;
+  top: 2.5%;
+  bottom: 10.56%;
+  transition: 0.3s;
+}
+
+.iphone:hover .iphone__icon {
+  opacity: 1;
+}
+
+.iphone___btn {
+  opacity: 0;
+  color: #fff;
+  background: #313131;
+  font-size: 25px;
+  width: 115px;
+  height: 34px;
+  transition: 0.3s;
+}
+
+.iphone:hover .iphone___btn {
+  opacity: 1;
+}
+
+.phone-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone__text {
+
+  /* width: 248px; */
+  height: 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: -35px;
+  /* position: absolute; */
+}
+
+
+
+.iphone__text {
+  width: 211px;
+  height: 22px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.Cell__Phone {
+  margin-top: 140px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #fff;
+  /* margin-bottom: 30px; */
+
+}
+
+.button__phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 190px;
+  height: 25px;
+  color: #fff;
+  background: #313131;
+  margin-top: 42px;
+  border: 1px white solid;
+  margin-left: 600px;
+}
+
+/* .iphone__img{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: url(../images/shadow.png);
+} */
+.link {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+
+.plewtewn {
+  display: flex;
+
+}
+
+.red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  margin-right: -250px;
+
+}
+
+
+
+.green__text {
+  font-size: 48px;
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.green__btn {
+  background: none;
+  color: #fff;
+  padding: 10px;
+  border: 1px white solid;
+  margin-top: 40px;
+}
+
+.game__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: -38%;
+}
+
+.game__text {
+
+  width: 430px;
+  height: 65px;
+  left: 335px;
+  top: 2612px;
+  font-size: 24px;
+  margin-left: 18%;
+  margin-top: 33px;
+
+  color: #FFFFFF;
+}
+
+.game__img {
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+  gap: 6px;
+
+}
+
+.icon__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ds {
+  color: #fff;
+  font-size: 30px;
+
+}
+
+.footer {
+  margin-top: 70px;
+}
+
+.footer__title {
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-left: 37%;
+}
+
+.footer__icon {
+  font-size: 25px;
+  color: #fff;
+}
+
+.footer__text {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+}
+
+.button__text {
+  font-size: 14px;
+  color: #fff;
+}
+
+.title {
+  color: #fff;
+  font-size: 24px;
+}
+
+.button {
+  display: flex;
+}
